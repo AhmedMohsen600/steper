@@ -13,6 +13,7 @@ export default class Stepercomponent extends Component {
           if (i === this.props.steperList.length - 1) return null;
           return (
             <div
+              key={i}
               className={`stepper-item ${
                 this.props.activeStep === step ? "active" : ""
               } ${
