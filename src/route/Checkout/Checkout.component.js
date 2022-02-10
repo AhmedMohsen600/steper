@@ -8,10 +8,6 @@ import {
   DETAILS_STEP,
 } from "SourceRoute/Checkout/Checkout.config";
 class Checkout extends SourceCheckout {
-  componentDidUpdate() {
-    console.log(this.props.checkoutStep);
-  }
-
   render() {
     return (
       <main block="Checkout">
